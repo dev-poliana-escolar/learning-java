@@ -1,4 +1,16 @@
-venv
-.venv
-/ListaExercicio/nbproject/private/
-/ListaExercicio/build/
+# IntelliJ
+.idea/
+
+# Arquivos de módulo
+*.iml
+
+# Compilados Java
+out/
+build/
+*.class
+
+# Logs
+*.log
+
+# NetBeans
+*/nbproject/private/
