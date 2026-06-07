@@ -12,6 +12,7 @@ public class Questao3 {
 
             System.out.println(inverterPalavra(p));
         }
+        sc.close();
     }
 
     static String inverterPalavra(String p){
