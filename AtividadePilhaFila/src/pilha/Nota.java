@@ -65,7 +65,7 @@ public class Nota {
     public static void desfazerNota() {
 
         if (blocoDeNotas.size() <= 1) {
-            System.out.println("Não há alterações para desfazer.");
+            System.out.println("Não há notas para desfazer.");
             return;
         }
 
