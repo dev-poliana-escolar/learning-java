@@ -126,7 +126,37 @@ O objetivo desse método é remover última nota inserida, isto é, a nota do to
 ## Classe de execução `Main.java`
 Nesta seção, apresenta-se os resultados do teste. Execute o arquivo: [Main.java](Main.java).
 
+`output`  no terminal:
 ```
+=== MEU BLOCO DE NOTAS ===
 
+-> Nova nota criada com sucesso. 
+Nota atual: [24/06 - Quarta] Fazer relátorio dessa atividade amanhã.
+--------------------------------
+-> Nova nota criada com sucesso.
+Nota atual: [24/06 - Quarta] Jogar lixo
+--------------------------------
+-> Nota editada. Nova versão salva no topo
+Nota atual: [24/06 - Quarta] Ir ao supermercado comprar café eaçúcar.
+--------------------------------
+
+=== HISTÓRICO DA PILHA ===
+[24/06 - Quarta] Ir ao supermercado comprar café e açúcar.
+[24/06 - Quarta] Jogar lixo
+[24/06 - Quarta] Fazer relátorio dessa atividade amanhã.
+==========================
+
+Desfazendo última nota...
+
+[Ctrl+Z] Nota desfeita.
+Versão removida: Ir ao supermercado comprar café e açúcar.
+Nota atual: [24/06 - Quarta] Jogar lixo
+--------------------------------
+
+=== HISTÓRICO DA PILHA ===
+[24/06 - Quarta] Jogar lixo
+[24/06 - Quarta] Fazer relátorio dessa atividade amanhã.
+==========================
+```
 
 
